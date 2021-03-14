@@ -1,0 +1,19 @@
+---
+en:
+  spree:
+    said: disse
+    for: para
+    none: Nenhum
+    comments: Comentários
+    comments_count: Comentários (%{count})
+    comment: Comentário
+    commenter: Autor
+    add_comment: Adicionar Comentário
+    add_comment_type: Adicionar Tipo de Comentário
+    comment_types: Tipos de Comentário
+    manage_comment_types: GErenciar tipos de comentário
+    applies_to: Aplica-se a
+    new_comment_type: Novo Tipo de Comentário
+    editing_comment_type: Editando Tipo de Comentário
+    back_to_comment_types_list: Voltar para Lista de Tipos de Comentário
+    commenter: Autor

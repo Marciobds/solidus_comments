@@ -6,7 +6,7 @@
 
 <% content_for :page_actions do %>
   <li>
-    <%= link_to I18n.t('spree.new_comment_type'), new_object_url, :icon => 'icon-plus', :id => 'admin_new_comment_type_link' %>
+    <%= link_to_with_icon 'icon-plus', I18n.t('spree.new_comment_type'), new_object_url, :id => 'admin_new_comment_type_link', class: 'btn btn-primary' %>
   </li>
 <% end %>
 

@@ -6,7 +6,7 @@
 
 <% content_for :page_actions do %>
   <li>
-    <%= link_to I18n.t('spree.back_to_comment_types_list'), admin_comment_types_path, :icon => 'icon-arrow-left' %>
+    <%= link_to_with_icon 'icon-arrow-left', I18n.t('spree.back_to_comment_types_list'), admin_comment_types_path, class: 'btn btn-primary' %>
   </li>
 <% end %>
 
